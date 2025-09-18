@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-header">
+        <h1 id="Application">Application Form</h1>
+    </div>
+
+    <form action="form1.html" method="get">
+        <table align="center" cellspacing="10" cellpadding="10" class="form-table">
+            <tr>
+                <td><label for="firstName" id="first">First Name:<sup>*</sup></label></td>
+                <td><input type="text" id="firstName" name="firstName" required></td>
+
+                <td><label for="lastName" id="first">Last Name:<sup>*</sup></label></td>
+                <td><input type="text" id="lastName" name="lastName" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="dob" class="dob">Date of Birth:<sup>*</sup></label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+
+                <td><label for="age" id="age">Age:</label></td>
+                <td><input type="text" id="ageInput" name="age" required></td>
+            </tr>
+
+            <tr>
+                <td id="gender">Gender:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male" class="gender">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female" class="gender">Female</label>
+                </td>
+
+                <td><label for="email" id="mail">Email:<sup>*</sup></label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+
+            <tr>
+                <td id="positions">Position Available:</td>
+                <td colspan="3">
+                    <input type="radio" id="junior" name="position" value="Junior Developer" required>
+                    <label for="junior">Junior Developer</label>
+
+                    <input type="radio" id="mid" name="position" value="Mid-level Developer" required>
+                    <label for="mid">Mid-level Developer</label>
+
+                    <input type="radio" id="senior" name="position" value="Senior Developer" required>
+                    <label for="senior">Senior Developer</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="langs">Programming Languages:</td>
+                <td colspan="3">
+                    <input type="checkbox" id="java" name="languages" value="Java">
+                    <label for="java">Java</label>
+
+                    <input type="checkbox" id="javascript" name="languages" value="JavaScript">
+                    <label for="javascript">JavaScript</label>
+
+                    <input type="checkbox" id="python" name="languages" value="Python">
+                    <label for="python">Python</label>
+                </td>
+            </tr>
+
+            <tr class="pass">
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+
+                <td><label for="confirmPassword">Confirm Password:</label></td>
+                <td><input type="password" id="confirmPassword" name="confirmPassword" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" class="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+#Application {
+    color: darkgrey;
+}
+
+.form-table {
+    background-color: skyblue;
+}
+
+.div {
+    background-color: beige;
+}
+
+#first {
+    color: brown;
+}
+
+.dob {
+    background-color: darkkhaki;
+}
+#dob {
+    background-color: rgb(38, 171, 173);
+}
+
+
+
+#age {
+    background-color: cadetblue;
+}
+
+#gender {
+    background-color: bisque;
+}
+
+.gender {
+    color: chocolate;
+}
+
+#mail {
+    color: blueviolet;
+}
+
+#positions {
+    background-color: pink;
+}
+
+.langs {
+    color: coral;
+}
+
+.pass {
+    background-color: crimson;
+}
+
+
+.submit {
+    color: green;
+}
+
